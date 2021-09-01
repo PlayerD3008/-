@@ -1,0 +1,19 @@
+{
+  "name": "daniil-hello-world",
+  "version": "0.0.1",
+  "description": "my first hello world application",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniil Sorokin",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.15.0",
+    "@babel/node": "^7.14.9",
+    "@babel/preset-env": "^7.15.0",
+    "babel-node": "0.0.1-security"
+  }
+}
